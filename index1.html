@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarCare Hub - Professional Car Cleaning Services</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="script1.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">CarCare Hub</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-buttons">
+        <button class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="#booking" class="cta-button">Book a Service</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Your Car, Our Care — Professional Cleaning at Your Doorstep!</h1>
+        <p>Book now for a sparkling experience. Home Pickup Available!</p>
+        <div class="hero-buttons">
+          <a href="#booking" class="primary-btn">
+            <i class="fas fa-check"></i> Book Your Slot
+          </a>
+          <a href="#contact" class="secondary-btn">
+            <i class="fas fa-phone"></i> Call Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+
+      <div class="slider-container">
+        <button class="slider-btn prev-btn" aria-label="Previous slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="services-slider">
+          <div class="slider-track">
+            <div class="service-card">
+              <i class="fas fa-car"></i>
+              <!-- <i class="fa-solid fa-car"></i> -->
+              <h3>Exterior Cleaning</h3>
+              <ul class="service-list">
+                <li>Basic Exterior Car Wash</li>
+                <li>Foam Wash with Premium Shampoo</li>
+                <li>Tyre and Alloy Cleaning</li>
+                <li>Windscreen and Glass Polishing</li>
+                <li>Ceramic Coating (Advanced)</li>
+              </ul>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-car-side"></i>
+              <h3>Interior Cleaning</h3>
+              <ul class="service-list">
+                <li>Interior Vacuuming</li>
+                <li>Dashboard Polishing and Cleaning</li>
+                <li>Seat Shampooing and Stain Removal</li>
+                <li>Leather Seats Conditioning</li>
+                <li>Odor Removal & Car Fragrance</li>
+                <li>AC Vents Deep Cleaning</li>
+              </ul>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-spa"></i>
+              <h3>Full Car Detailing</h3>
+              <ul class="service-list">
+                <li>Complete Exterior + Interior Deep Cleaning</li>
+                <li>Paint Protection & Wax Polish</li>
+                <li>Scratch Removal (minor)</li>
+                <li>Engine Bay Cleaning</li>
+              </ul>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-plus-circle"></i>
+              <h3>Add-ons</h3>
+              <ul class="service-list">
+                <li>Anti-Rust Coating</li>
+                <li>Rain Repellent Treatment</li>
+                <li>Headlight Restoration</li>
+                <li>Germ Protection & Sanitization</li>
+                <li>Pet Hair Removal</li>
+                <li>Battery & Tyre Health Check</li>
+              </ul>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-home"></i>
+              <h3>Home Pickup/Drop Service</h3>
+              <ul class="service-list">
+                <li>Car Pickup & Drop (trained drivers)</li>
+                <li>Real-time Pickup Tracking</li>
+                <li>Emergency Car Cleaning (same-day service)</li>
+              </ul>
+            </div>
+            <div class="service-card">
+              <i class="fas fa-tools"></i>
+              <h3>Advanced Services</h3>
+              <ul class="service-list">
+                <li>Paint Touch-up Services</li>
+                <li>Denting and Painting</li>
+                <li>Windshield Repair or Replacement</li>
+                <li>Car Wrapping (Vinyl wrap)</li>
+                <li>Car PPF (Paint Protection Film)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-btn next-btn" aria-label="Next slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="slider-dots"></div>
+
+      <div class="service-packages">
+        <h3>Service Packages</h3>
+        <div class="package-grid">
+          <div class="package-card">
+            <h4>Basic Shine</h4>
+            <div class="package-price">₹499</div>
+            <ul class="package-features">
+              <li><i class="fas fa-check"></i> Exterior Wash</li>
+              <li><i class="fas fa-check"></i> Interior Vacuum</li>
+            </ul>
+            <a class="book-btn">Book Now</a>
+          </div>
+          <div class="package-card featured">
+            <h4>Premium Care</h4>
+            <div class="package-price">₹1499</div>
+            <ul class="package-features">
+              <li><i class="fas fa-check"></i> Full Exterior Cleaning</li>
+              <li><i class="fas fa-check"></i> Interior Detailing</li>
+              <li><i class="fas fa-check"></i> Dashboard Cleaning</li>
+              <li><i class="fas fa-check"></i> Air Freshener</li>
+            </ul>
+            <a class="book-btn">Book Now</a>
+          </div>
+          <div class="package-card">
+            <h4>Ultimate Spa</h4>
+            <div class="package-price">₹2499</div>
+            <ul class="package-features">
+              <li><i class="fas fa-check"></i> Full Car Detailing</li>
+              <li><i class="fas fa-check"></i> Engine Cleaning</li>
+              <li><i class="fas fa-check"></i> Odor Removal</li>
+              <li><i class="fas fa-check"></i> Ceramic Coating</li>
+            </ul>
+            <a class="book-btn">Book Now</a>
+          </div>
+          <div class="package-card">
+            <h4>Monthly Membership</h4>
+            <div class="package-price">₹3999</div>
+            <ul class="package-features">
+              <li><i class="fas fa-check"></i> 4 Washes</li>
+              <li><i class="fas fa-check"></i> 1 Full Interior Cleaning</li>
+              <li><i class="fas fa-check"></i> Priority Booking</li>
+              <li><i class="fas fa-check"></i> 10% Off Add-ons</li>
+            </ul>
+            <a class="book-btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bonus-services">
+        <h3>Bonus Home Services</h3>
+        <div class="bonus-grid">
+          <div class="bonus-card">
+            <i class="fas fa-motorcycle"></i>
+            <h4>Two-Wheeler Cleaning</h4>
+          </div>
+          <div class="bonus-card">
+            <i class="fas fa-couch"></i>
+            <h4>Home Sofa Shampooing</h4>
+          </div>
+          <div class="bonus-card">
+            <i class="fas fa-home"></i>
+            <h4>Home Carpet Deep Cleaning</h4>
+          </div>
+          <div class="bonus-card">
+            <i class="fas fa-parking"></i>
+            <h4>Home Car Parking Area Wash</h4>
+          </div>
+        </div>
+      </div>
+      <a href="#booking" class="see-all-btn">Book Your Service</a>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="highlights">
+      <h2>Why Choose Us</h2>
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <i class="fas fa-rocket"></i>
+          <h3>Fast Service</h3>
+        </div>
+        <div class="highlight-card">
+          <i class="fas fa-leaf"></i>
+          <h3>Eco-friendly Products</h3>
+        </div>
+        <div class="highlight-card">
+          <i class="fas fa-home"></i>
+          <h3>Home Pickup & Drop</h3>
+        </div>
+        <div class="highlight-card">
+          <i class="fas fa-handshake"></i>
+          <h3>100% Satisfaction Guarantee</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <div class="about-container">
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Your Trusted Car Care Partner</h3>
+            <p>
+              At CarCare Hub, we're passionate about keeping your vehicle in
+              pristine condition. With over 1+ years of experience, our team of
+              certified professionals ensures your car receives the care it
+              deserves.
+            </p>
+            <p>
+              We use only premium, eco-friendly products and state-of-the-art
+              equipment to deliver exceptional results every time. Our
+              commitment to quality and customer satisfaction has made us the
+              preferred choice for car care services.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Happy Customers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">98%</span>
+                <span class="stat-label">Satisfaction Rate</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Expert Staff</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt="Professional Car Detailing Service"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Packages -->
+    <section id="pricing" class="pricing">
+      <h2>Pricing Packages</h2>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Basic Wash</h3>
+          <div class="price">₹499</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> Exterior Wash</li>
+            <li><i class="fas fa-check"></i> Interior Vacuum</li>
+            <li><i class="fas fa-check"></i> Window Cleaning</li>
+          </ul>
+          <div class="time">⏰ 30-45 minutes</div>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="price-card featured">
+          <h3>Premium Detail</h3>
+          <div class="price">₹1299</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> Basic Wash +</li>
+            <li><i class="fas fa-check"></i> Interior Detailing</li>
+            <li><i class="fas fa-check"></i> Dashboard Cleaning</li>
+            <li><i class="fas fa-check"></i> Air Freshener</li>
+          </ul>
+          <div class="time">⏰ 1-1.5 hours</div>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="price-card">
+          <h3>Full Body Spa</h3>
+          <div class="price">₹1999</div>
+          <ul class="features">
+            <li><i class="fas fa-check"></i> Premium Detail +</li>
+            <li><i class="fas fa-check"></i> Engine Bay Cleaning</li>
+            <li><i class="fas fa-check"></i> Paint Protection</li>
+            <li><i class="fas fa-check"></i> Tire Dressing</li>
+          </ul>
+          <div class="time">⏰ 2-2.5 hours</div>
+          <button class="book-btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Amazing service! My car looks brand new."</p>
+          <div class="customer">- John D.</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Super easy to book and very professional."</p>
+          <div class="customer">- Sarah M.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking">
+      <h2>Book Your Service</h2>
+      <form class="booking-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <select required>
+          <option value="">Select Service</option>
+          <option value="basic">Basic Wash</option>
+          <option value="premium">Premium Detail</option>
+          <option value="spa">Full Body Spa</option>
+        </select>
+        <input type="datetime-local" required />
+        <textarea placeholder="Pickup Address" required></textarea>
+        <button type="submit" class="submit-btn">Submit Booking</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>123 Car Street, Auto City</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 98765 43210</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@carcarehub.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section footer-logo">
+          <i class="fas fa-car-side"></i>
+          <span>CarCare Hub</span>
+          <a href="">Visit https://www.carcarehub.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 CarCare Hub. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

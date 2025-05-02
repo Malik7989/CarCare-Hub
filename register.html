@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - CarCare Hub</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="script1.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">CarCare Hub</div>
+      <div class="header-buttons">
+        <button class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="index1.html" class="cta-button">Back to Home</a>
+      </div>
+    </header>
+
+    <!-- Registration Section -->
+    <section class="registration">
+      <div class="registration-container">
+        <div class="registration-header">
+          <h2>Create Your Account</h2>
+          <p>Join CarCare Hub to access exclusive services and benefits</p>
+        </div>
+
+        <form class="registration-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Enter your full name"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <div class="input-group">
+              <i class="fas fa-phone"></i>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder="Enter your phone number"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group password-group">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                placeholder="Create a password"
+              />
+              <i class="fas fa-eye password-toggle"></i>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <div class="input-group password-group">
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+                placeholder="Confirm your password"
+              />
+              <i class="fas fa-eye password-toggle"></i>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <div class="input-group">
+              <i class="fas fa-map-marker-alt"></i>
+              <textarea
+                id="address"
+                name="address"
+                required
+                placeholder="Enter your address"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"
+              >I agree to the <a href="#">Terms and Conditions</a> and
+              <a href="#">Privacy Policy</a></label
+            >
+          </div>
+
+          <button type="submit" class="submit-btn">Create Account</button>
+
+          <div class="login-link">
+            Already have an account? <a href="login.html">Login here</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
